@@ -18,15 +18,15 @@ API_HASH = environ.get('API_HASH', '316af9392f920cc4d5d638bdf3e7d6ee)
 BOT_TOKEN = environ.get('BOT_TOKEN', '8304747226:AAH_kygjS6V0YCRz4m4SXILFqc-xKbtXu5Q')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5016109398').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/Innocent_babe_dead") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002190681742'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+K2kgCBgaat80YWQ9')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002190681742').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1978633902').split()]
+USERNAME = environ.get('USERNAME', "https://t.me/Abid463") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003027413387)
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+WGh3cM0BvcY4ZDI1
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1003077279506').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv:learningbajority&appName=learningbots")
-DATABASE_NAME = environ.get('DATABASE_NAME', "learningbots")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://hckmeb_db_user:hckmeb@hckmeb.5wovwul.mongodb.net/?retryWrites=true&w=majority&appName=hckmebs")
+DATABASE_NAME = environ.get('DATABASE_NAME', "hckmeb")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
